@@ -42,7 +42,7 @@ const Sidebar = () => {
             key={i}
             to={item.to}
             className={
-              'flex flex-row justify-start items-center gap-2   py-4 pl-3 text-gray-400  hover:text-teal-50 transition ease-in-out duration-300  aria-[current=page]:text-teal-500 aria-[current=page]:bg-slate-800  shadow-teal-300 '
+              'flex flex-row justify-start items-center gap-2   py-4 pl-3 text-gray-400  hover:text-teal-50 transition ease-in-out duration-300  aria-[current=page]:text-teal-500 aria-[current=page]:bg-slate-600/30  shadow-teal-300 '
             }
           >
             <item.icon className="text-2xl" />
